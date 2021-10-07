@@ -14,3 +14,6 @@ class Games(models.Model):
     realease_date = models.IntegerField()
     create_at = models.DateField(auto_now_add=True)
     image = models.ImageField(upload_to=upload_image, blank=True, null=True)
+
+    def __str__(self):
+        return self.title
