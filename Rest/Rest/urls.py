@@ -21,7 +21,7 @@ from rest_framework import routers
 from games.api import viewsets as gamesviewsets
 
 route = routers.DefaultRouter()
-route.register(r'games', gamesviewsets.GamesViewSet, basename="games")
+route.register(r'', gamesviewsets.GamesViewSet, basename="games")
 
 
 urlpatterns = [
