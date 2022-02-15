@@ -17,7 +17,7 @@ Instalar dependências
 pip install -r requirements.txt
 ```
 
-Na primeira instalacao criar migrations
+Na primeira instalação criar migrations
 ```
 cd Rest
 python manage.py makemigrations
